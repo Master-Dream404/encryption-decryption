@@ -55,6 +55,7 @@ public:
 		}
 		else
 		{
+			data.replace(data.find(find), data.length(), "");
 			fps << data;
 			fps.close();
 			fpt.close();
